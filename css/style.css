@@ -19,6 +19,7 @@ header img{ /* img selected is only img in header */
     margin-left: 10px;
 }
 /* CSS main */
+/* CSS Section: title */
 main{
     padding: 10px; /* to spacing main page */
 }
@@ -36,5 +37,16 @@ main{
 }
 .title span{
     color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+/* CSS Section images */
+.images{
+    margin-top: 20px;
+    height: 30vh;
+}
+.images img{
+    height: 100%;
+}
+.images p{
     font-size: 12px;
 }
