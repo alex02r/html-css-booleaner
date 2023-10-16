@@ -1,0 +1,99 @@
+/* Import font  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+/* CSS header */
+header {
+    background-image: url('../img/pattern.png');
+    background-color: rgb(119, 200, 253);
+    background-size: 240px;
+}
+header img{ /* img selected is only img in header */
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* CSS main */
+/* CSS Section: title */
+main{
+    padding: 10px; /* to spacing main page */
+}
+.title h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.write{ 
+    color: rgb(124, 124, 124);
+    font-size: 14px;
+}
+.write a{
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+.title span{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+/* CSS Section images */
+.images{
+    margin-top: 20px;
+    height: 30vh;
+}
+.images img{
+    height: 100%;
+}
+.images p{
+    font-size: 12px;
+}
+/* CSS Section paragraph */
+.paragraph{
+    margin-top: 50px;
+}
+.paragraph p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.high{
+    background-color: rgb(253, 249, 0);
+}
+/* CSS table */
+table{
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+thead tr{
+    background-color: rgb(0, 174, 255);
+    color: white;
+} 
+tbody td{
+    padding-right: 150px;
+    text-align: left;
+}
+.blue{
+    background-color: rgb(123, 237, 252);
+}
+/* CSS FOOTER */
+footer{
+    padding: 10px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+
+}
+.img.first{
+    background-image: url("../img/monitor.jpg");
+}
+.img.second{
+    background-image: url('../img/graph.jpg');
+}
