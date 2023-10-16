@@ -6,3 +6,15 @@
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
+
+/* CSS header */
+header {
+    background-image: url('../img/pattern.png');
+    background-color: rgb(119, 200, 253);
+    background-size: 220px 120px;
+}
+header img{ /* img selected is only img in header */
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
