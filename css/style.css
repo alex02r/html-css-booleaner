@@ -74,9 +74,8 @@ thead tr{
     background-color: rgb(0, 174, 255);
     color: white;
 } 
-tbody td{
-    padding-right: 150px;
-    text-align: left;
+.txt{
+    width: 50%;
 }
 .blue{
     background-color: rgb(123, 237, 252);
